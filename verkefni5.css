@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  main {
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+
+  .card {
+    background: #fff;
+    padding: 20px;
+    max-width: 470px;
+    max-height: 300px;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: wrap;
+    word-break: break-word;
+  }
+
+  .card-med-mynd {
+    flex: 1 1 30em;
+    margin-top: 8px;
+    width: 200px;
+    word-wrap: break-word;
+    overflow: auto;
+  }
+
+  .mynd:nth-child(n) {
+    flex: 1;
+    padding: 7px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .card-an-header-1 {
+    display: flex;
+    overflow: auto;
+    height: 150px;
+  }
+
+  .card-an-header-2 {
+    display: flex;
+    overflow: auto;
+    height: 150px;
+  }
+
+  .card-an-header-3 {
+    display: flex;
+    overflow: auto;
+    height: 150px;
+  }
+
+  .card-an-header-4 {
+    display: flex;
+    overflow: auto;
+    height: 200px;
+  }
+
+  .card-an-header-5 {
+    display: flex;
+    overflow: auto;
+    height: 150px;
+  }
+
+  .card-an-header-6 {
+    display: flex;
+    overflow: auto;
+    height: 180px;
+  }
+
+  p{
+    overflow:auto;
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+
+li{
+    font-weight: bold;
+    padding: 0px 7px;
+}
